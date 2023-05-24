@@ -1,7 +1,7 @@
 const express = require("express");
 
 const { createTask, getdetailTask, updateTask, deleteTask, getallTask } = require("../controllers/taskControllers");
-const { isowner } = require("../middleware/taskMiddleware.js");
+const { isowner } = require("../middleware/taskMiddleware");
 
 const router = express.Router();
 
